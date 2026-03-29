@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'About | AI Developer Portfolio',
   description:
-    'Senior AI developer with 3+ years of experience building AI agents, full-stack applications, and automation solutions.',
+    'Senior AI developer with Google experience and 7+ years building AI agents, full-stack applications, and automation solutions.',
 };
 
 const skills = [
@@ -63,6 +63,12 @@ const timeline = [
   },
   {
     period: 'Previously',
+    title: 'Software Engineer at Google',
+    description:
+      'Worked on large-scale distributed systems and AI/ML infrastructure at Google. Gained deep expertise in production-grade engineering, code quality standards, and building systems that serve billions of requests.',
+  },
+  {
+    period: 'Previously',
     title: 'Senior Full-Stack Developer',
     description:
       'Led development of AI-powered products at multiple startups. Built scalable backend systems, real-time collaboration tools, and data processing pipelines.',
@@ -73,6 +79,17 @@ const timeline = [
     description:
       'Developed strong fundamentals in software engineering, system design, and best practices. Worked across the full stack with a focus on Python and JavaScript ecosystems.',
   },
+];
+
+const toolsIUse = [
+  { name: 'Claude Code', icon: 'AI' },
+  { name: 'VS Code', icon: 'IDE' },
+  { name: 'Docker', icon: 'DevOps' },
+  { name: 'Git', icon: 'VCS' },
+  { name: 'Figma', icon: 'Design' },
+  { name: 'AWS', icon: 'Cloud' },
+  { name: 'Vercel', icon: 'Deploy' },
+  { name: 'PostgreSQL', icon: 'DB' },
 ];
 
 export default function AboutPage() {
@@ -87,7 +104,7 @@ export default function AboutPage() {
               About <span className="gradient-text">Me</span>
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-              I am a senior AI developer who turns ambitious ideas into production-ready software.
+              I am a senior AI developer with experience at <span className="text-white font-semibold">Google</span> who turns ambitious ideas into production-ready software.
               With deep expertise in AI agent development and full-stack engineering, I help
               businesses leverage AI to move faster and build smarter.
             </p>
