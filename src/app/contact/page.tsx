@@ -192,6 +192,40 @@ export default function ContactPage() {
                 </a>
 
                 <a
+                  href="https://www.upwork.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-gray-400 hover:text-green-400 transition-colors group"
+                >
+                  <div className="w-10 h-10 rounded-lg bg-green-500/5 border border-white/10 flex items-center justify-center group-hover:border-green-500/30 transition-colors">
+                    <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <div className="text-sm font-medium text-gray-300">Upwork</div>
+                    <div className="text-sm">Top Rated Developer</div>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.fiverr.com/d8556120"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-gray-400 hover:text-green-400 transition-colors group"
+                >
+                  <div className="w-10 h-10 rounded-lg bg-green-500/5 border border-white/10 flex items-center justify-center group-hover:border-green-500/30 transition-colors">
+                    <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <div className="text-sm font-medium text-gray-300">Fiverr</div>
+                    <div className="text-sm">fiverr.com/d8556120</div>
+                  </div>
+                </a>
+
+                <a
                   href="https://github.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -223,6 +257,38 @@ export default function ContactPage() {
                     <div className="text-sm font-medium text-gray-300">Twitter / X</div>
                     <div className="text-sm">@devai</div>
                   </div>
+                </a>
+              </div>
+
+              {/* Timezone Info */}
+              <div className="glass-card p-6">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-10 h-10 rounded-lg bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center">
+                    <svg className="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-white">Global Availability</h3>
+                    <p className="text-sm text-gray-400">Based in Shanghai (GMT+8), available for global clients</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Book a Free Consultation CTA */}
+              <div className="glass-card p-6 bg-gradient-to-br from-indigo-500/10 to-purple-500/10 border-indigo-500/20">
+                <h3 className="font-semibold text-white mb-2 text-lg">Book a Free Consultation</h3>
+                <p className="text-sm text-gray-400 mb-4">
+                  Not sure where to start? Let&apos;s have a free 30-minute call to discuss your project requirements and find the best approach.
+                </p>
+                <a
+                  href="mailto:hello@devai.com?subject=Free%20Consultation%20Request"
+                  className="btn-primary w-full !py-3 text-sm"
+                >
+                  Schedule Free Call
+                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
                 </a>
               </div>
 

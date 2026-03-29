@@ -217,6 +217,26 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Tools I Use Daily */}
+      <section className="py-20 bg-white/[0.01]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center">
+            Tools I Use <span className="gradient-text">Daily</span>
+          </h2>
+
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto">
+            {toolsIUse.map((tool) => (
+              <div key={tool.name} className="tool-item">
+                <div className="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 text-xs font-bold">
+                  {tool.icon}
+                </div>
+                <span className="text-sm font-medium text-gray-300">{tool.name}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 relative">
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/5 via-purple-500/5 to-indigo-500/5" />

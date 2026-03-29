@@ -7,9 +7,9 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'AI Developer | Full-Stack & AI Agent Solutions',
+  title: 'Hire AI Developer | Full-Stack AI Agent & MVP Development | Ex-Google Engineer',
   description:
-    'Senior AI developer specializing in custom AI agents, chatbots, full-stack MVPs, and automation solutions. Ship your AI-powered product in 1-2 weeks.',
+    'Senior AI developer with Google experience. I build custom AI agents, chatbots, RAG pipelines, full-stack MVPs, and automation solutions using Python, Next.js, Claude API, and OpenAI. Ship your AI product in 1-2 weeks with 99% client satisfaction.',
   keywords: [
     'AI developer',
     'AI agent',
@@ -22,24 +22,44 @@ export const metadata: Metadata = {
     'FastAPI',
     'Python',
     'TypeScript',
+    'hire AI developer',
+    'AI consultant',
+    'RAG pipeline',
+    'LLM integration',
+    'Claude API developer',
+    'OpenAI developer',
+    'ex-Google engineer',
   ],
   authors: [{ name: 'AI Developer' }],
+  metadataBase: new URL('https://devai.com'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
-    title: 'AI Developer | Full-Stack & AI Agent Solutions',
+    title: 'Hire AI Developer | Full-Stack AI Agent & MVP Development',
     description:
-      'Senior AI developer specializing in custom AI agents, chatbots, full-stack MVPs, and automation solutions.',
+      'Senior AI developer with Google experience. Custom AI agents, full-stack MVPs, and automation. Ship in 1-2 weeks with 99% client satisfaction.',
     type: 'website',
     locale: 'en_US',
+    url: 'https://devai.com',
+    siteName: 'DevAI',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AI Developer | Full-Stack & AI Agent Solutions',
+    title: 'Hire AI Developer | Full-Stack AI Agent & MVP Development',
     description:
-      'Senior AI developer specializing in custom AI agents, chatbots, full-stack MVPs, and automation solutions.',
+      'Senior AI developer with Google experience. Custom AI agents, full-stack MVPs, and automation. Ship in 1-2 weeks.',
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 
